@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+output/results/*.json
+output/raw_text/*.txt
+output/review_queue/*.db
+!output/results/.gitkeep
+!output/raw_text/.gitkeep
+!output/review_queue/.gitkeep
+sample_data/_tmp_*.png
